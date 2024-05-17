@@ -4,27 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Resume</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         /* Add your custom CSS styles here */
         body {
-            background-color: #4CAF50; /* Green background */
-            background-color: #4CAF50; /* Green background */
-            background-color: #4CAF50; /* Green background */
-            background-color: #4CAF50; /* Green background */
-            color: #fff;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            color: #3498db;
+            margin-bottom: 5px;
+        }
+        header p {
+            color: #555;
+            font-size: 18px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            color: #555;
+            margin-bottom: 5px;
         }
         .icon {
             margin-right: 10px;
         }
+        .btn-primary {
+            background-color: #3498db;
+            border-color: #3498db;
+        }
+        .btn-primary:hover,
+        .btn-primary:focus {
+            background-color: #2186c4;
+            border-color: #1e6aa9;
+        }
     </style>
 </head>
 <body>
-    <div class="container mt-5">
-        <header class="text-center">
-            <h1 class="text-primary">Your Name</h1>
-            <p class="lead">Web Developer <i class="fas fa-laptop-code"></i></p>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <p>Web Developer <i class="fas fa-laptop-code"></i></p>
         </header>
         <section>
             <div class="row">
@@ -52,10 +100,13 @@
                 </div>
             </div>
         </section>
+        <div class="text-center">
+            <a href="#" class="btn btn-primary">Contact Me</a>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
